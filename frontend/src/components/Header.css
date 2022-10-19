@@ -1,0 +1,118 @@
+.nn {
+    position: sticky;
+    top: 0;
+    background: transparent;
+    z-index: 999;
+}
+
+.active {
+    background: white;
+}
+
+.containerh {
+    width: 100%;
+}
+
+.col1 {
+    display: flex;
+}
+
+#baricon {
+    visibility: hidden;
+    margin-top: 22px;
+    height: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.disactive {
+    display: none;
+}
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    margin-top: 21px;
+    margin-left: -10px;
+}
+
+.logo img {
+    height: 26px;
+}
+
+.searchBar {
+    margin-top: 4px;
+    padding-left: 25px;
+    display: flex;
+}
+
+.searchBarHide {
+    display: none;
+}
+
+.searchLogo {
+    position: absolute;
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 7px;
+}
+
+.btnn {
+    background: rgb(13, 150, 81);
+    color: white;
+    height: 38px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border: none;
+    padding: 0px 16px;
+    border-radius: 0 4px 4px 0;
+}
+
+.nvegation {
+    margin-top: 26px;
+}
+
+ul {
+    display: flex;
+    margin-top: 13px;
+}
+
+ul li {
+    padding-left: 14px;
+    margin-left: 9px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Helvetica";
+}
+
+.linkColor {
+    color: #62646a;
+}
+
+.disActiveColor {
+    color: white;
+}
+
+ul li .global {
+    padding: 10px;
+}
+
+.signInLi {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.signInLi:hover {
+    color: #1dbf73;
+    text-decoration: none;
+}
+
+.bli {
+    margin-top: -6px;
+}
